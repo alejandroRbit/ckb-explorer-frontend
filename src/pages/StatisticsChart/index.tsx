@@ -222,6 +222,12 @@ const chartsData = (): ChartCategory[] => [
         description: i18n.t('statistic.inflation_rate_description'),
       },
       {
+        title: `${i18n.t('statistic.inflation_rate')}`,
+        chart: <InflationRateChart isThumbnail />,
+        path: '/charts/inflation-rate',
+        description: i18n.t('statistic.inflation_rate_description'),
+      },
+      {
         title: `${i18n.t('statistic.liquidity')}`,
         chart: <LiquidityChart isThumbnail />,
         path: '/charts/liquidity',
