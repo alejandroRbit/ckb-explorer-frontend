@@ -8,10 +8,10 @@ module.exports = {
     echarts: 'true',
   },
   rules: {
-    'prettier/prettier': [
-      2,
+  "prettier/prettier": [
+      "error",
       {
-        printWidth: 120,
+        "endOfLine": "auto"
       },
     ],
     semi: [2, 'never'],
